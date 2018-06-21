@@ -1,0 +1,96 @@
+<% include header %>
+
+
+ 
+<div class="container">
+<header class="eightimage">
+<h1 class="display-3" style="font-family:Bodoni;">Web Design</h1>
+
+</header>
+
+<article class="col-lg-offset-1 col-sm-offset-1 col-lg-8 col-sm-7 col-lg-push-3 col-sm-push-4">
+<div class="contact-info">
+  <h1 style="padding:4%;">Contact</h1>
+</div> 
+  <div class="regions">
+    <div class="row">
+      <div class="col-sm-8">
+        <form class="contact-form row" name=form1 id="form1" action="database.js" method="post" accept-charset="Big5">
+         <div class="form-group col-sm-6"> 
+          <label for="Name">Name</label>
+          <input required type="text" class="form-control" 
+          name="Name" id="Name">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="School">School</label>
+          <input type="text" class="form-control" 
+          name="School" id="School">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="email">Email</label>
+          <input required type="text" class="form-control"
+          name="email" id="txtEmail" onBlur="checkEmail(this.value);"/>
+        </div>
+        <div class="form-group col-sm-6">
+           <label for="Phone">Phone</label>
+           <input type="text" class="form-control"
+           name="Phone" id="Phone" onChange=checkph(this.value)>
+        </div> 
+        <div class="form-group col-sm-12">
+          <label for="Message">Private Message</label>
+          <textarea required class="form-control" id="msg" name="Message"
+          rows="5" cols="40"></textarea>
+        </div>
+        <div class="col-sm-12">  
+          <p class="form-message float-sm-left"></p>
+          <button type="submit" class="btn float-xs-right" color="#FFF" background-color="red" font-weight="bold" name="submit" onclick="self.location.href='database.js'" >Send</button>  
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</article>
+
+
+    <aside class="col-lg-3 col-sm-4 col-lg-pull-9 col-sm-pull-8" style="padding:4%;">
+      <ul class="nav nav-pills nav-stacked">
+          <li><a href="mainpage">Announcement</a></li>
+          <li><a href="courses">Courses</a></li>
+          <li><a href="example">Example</a></li>
+          <li><a href="gallery">Gallery</a></li>
+          <li><a href="about">About</a></li>  
+          <li class="active" background-color="#3e474f"><a href="contact">Contact</a></li>
+          <li><a href="searching">Feedback</a></li>
+          <li><a href="index">Article</a></li>
+        </ul>  
+    </aside>
+  <body>
+    <div class="content-region map">
+      <div class="row">
+        <div class="col-sm-12">
+            <h3><em>Address Information</em></h3>
+            <div id="map"></div>
+            <script>
+              function initMap() {
+
+              var uluru = {lat: 37.7661365, lng: -122.460175};
+              var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 4,
+              center: uluru
+              });
+              console.log(map);
+              var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+              });
+            }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEf_tBMmXMdbzR17oSWVcxQfDF3z-vO8c&callback=initMap"></script>
+        </div>
+      </div>      
+    </div>          
+  </body>
+</div>
+<% include footer %>

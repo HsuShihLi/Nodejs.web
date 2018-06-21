@@ -1,0 +1,32 @@
+<% include header %>
+
+<div class="container">
+
+<header class="tenimage">
+<h1 class="display-3">Web Design</h1>
+</header>
+
+<h2 style="font-family:Bodoni;">Create a public message</h2>
+<h5 style="font-family:OpenSans;"> Please enter the title and content of the message down below, thank you very much!</h5>
+<form method="post" role="form">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title" 
+    name="title" placeholder="Entry title" required>
+  </div>
+  <div class="form-group">
+    <label for="content">Entry text</label>
+    <textarea class="form-control" id="body" 
+        name="body" placeholder="Love this! It’s a great tool for building websites." 
+        rows="3" required>
+    </textarea>
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Post entry" class="btn btn-primary">
+  </div>
+</form>
+
+</div> 
+
+<% include footer %>
+

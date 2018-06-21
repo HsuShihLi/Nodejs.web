@@ -1,0 +1,184 @@
+.icon {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.services section {
+  text-align: center;
+}
+
+@media(min-width: 1200px) {
+  h3 {
+    margin-top: 0;
+  }
+  .services section {
+    text-align: left;
+  }
+}
+
+div.services {
+  padding-top: 70px;
+}
+
+body {
+  background-color: #f0eee1;
+}
+
+h1 {
+  font-family:Bodoni;
+}
+
+h2 {
+  font-family:Helvetica;
+}
+
+h3 {
+  font-family:Times New Roman;
+}
+
+p {
+  text-align: justify;
+  text-justify:inter-ideograph;
+  text-indent: 25px;
+}
+
+.container{
+  background-color: #f0eee1;
+}
+
+.display-3{
+  font-weight: 10;
+  font-family: sans-serif;
+  color: white;
+}
+
+.bgimage{
+  background-image: url("../images/123.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.aboutimage{
+  background-image: url("../images/firstpic.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.exampleimage{
+  background-image: url("../images/thirdpic.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.galleryimage{
+  background-image: url("../images/fourthpic.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.coursesimage{
+  background-image: url("../images/fifthpic.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.contactimage{
+  background-image: url("../images/sixth.jpeg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.searchimage{
+  background-image: url("../images/seven.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.eightimage{
+  background-image: url("../images/eight.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.nineimage{
+  background-image: url("../images/nine.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+.tenimage{
+  background-image: url("../images/ten.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 220px;
+}
+
+
+.col-sm-12{
+  max-width: 100%;
+  flex: 0 0 100%;
+  position: middle;
+}
+
+.col-sx-6 col-sm{
+  position: middle;
+}
+
+.footer h5{
+  font-size: 1em;
+  color: white;
+}
+
+.footer {
+  background-color: #303030;
+}
+
+.footer a{
+  font-size: 1em;
+  color: #61BFDA;
+}
+
+.footer p{
+  text-indent:0px;
+  font-size: 0.8em;
+  color: #F4DFDB;
+}
+
+.h5, h5{
+  font-size: 1.2em;
+}
+
+.nav-pills, li, a.active{
+  color:#3e474f;
+}
+
+#map{
+  height: 400px;
+  width: 100%;
+}
+
+#feedbackbutton{
+  background-color: #F7DC6F;
+  color: black;
+  font-family: italic;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+  background-color:#303030;
+  color: white;
+}
+
+#coursebutton {
+  background-color:#2ECC71;
+  color: black;
+}

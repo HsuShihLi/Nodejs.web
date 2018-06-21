@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/contact.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Web Design basic knowledge</title>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <a href="profile" class="navbar-brand" 
+      style="font-family:Bodoni;" class="active">Hsu Shih</a>
+    </div>
+   <% if(title) { %>  
+  <ul class="nav navbar-nav">
+    <li class="nav-item <%= title=="mainpage"?"active":""%>"><a class="nav-link" href="/">Announcement</a></li>
+    <li class="nav-item <%= title=="courses"?"active":""%>"><a href="courses">Courses</a></li>
+    <li class="nav-item <%= title=="example"?"active":""%>"><a href="example">Example</a></li>
+    <li class="nav-item <%= title=="gallery"?"active":""%>"><a href="gallery">Gallery</a></li>
+    <li class="nav-item <%= title=="about"?"active":""%>"><a href="about">About</a></li>
+    <li class="nav-item <%= title=="contact"?"active":""%>"><a href="contact">Contact</a></li>
+    <li class="nav-item <%= title=="searching"?"active":""%>"><a href="searching">Feedback</a></li>
+    <li class="nav-item <%= title=="index"?"active":""%>"><a href="index">Article</a></li>
+  </ul> 
+  <%}%>
+  </nav>
+<div class="services container" id="top"> </div>
