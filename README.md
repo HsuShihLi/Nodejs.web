@@ -1,6 +1,9 @@
 # Nodejs.web
 Building a website with Nodejs
 
+<img src="views/images/home.jpg" width="500" height="450">
+
+
 Step 1.
 
 Download the file.
@@ -33,5 +36,8 @@ Open any browser you have.
 type "localhost:3030".
 the whole website should pop up.
 
-
 Good luck!
+
+
+<img src="views/images/map.jpg" width="500" height="450">
+
