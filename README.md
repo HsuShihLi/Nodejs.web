@@ -22,7 +22,7 @@ should see the node version like v6.10.0.
 Step 3.
 
 Go to terminal, cd "yourfilename".
-onc you're in the right folder, type "node app.js" or "node app".
+once you're in the right folder, type "node app.js" or "node app".
 Enter -> should shows "yourfilename" app started on port 3030.
 
 
