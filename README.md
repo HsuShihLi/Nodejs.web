@@ -1,8 +1,6 @@
 # Nodejs.web
 Building a website with Nodejs
 
-<img src="views/images/home.jpg" width="500" height="450">
-
 
 Step 1.
 
@@ -37,6 +35,11 @@ type "localhost:3030".
 the whole website should pop up.
 
 Good luck!
+
+some picture of the website down below
+
+
+<img src="views/images/home.jpg" width="450" height="400">
 
 
 <img src="views/images/map.jpg" width="500" height="450">
